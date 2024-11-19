@@ -132,7 +132,8 @@ public class 변수_2 {
 		 
 		 int num = 10;
 		 double dou = 3;
-//		 int res = num / dou;
+		 double res = num / dou;
+		 int result = (int) res;
 		 System.out.println(num/dou);
 		 
 //		  int / long / double / char / boolean
