@@ -90,6 +90,7 @@ public class 연산자_단항연산자3 {
 //		
 //		long res = (long) ((d-a)*100);
 //		System.out.println(d-a);
+		연산자_이항연산자_비교연산자２.display();
 	}
 
 }

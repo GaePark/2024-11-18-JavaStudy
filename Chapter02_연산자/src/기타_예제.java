@@ -10,17 +10,20 @@ public class 기타_예제 {
 		// TODO Auto-generated method stub
 		try {
 			Scanner scan = new Scanner(System.in);
-			System.out.println("검색어: ");
+			System.out.print("검색어: ");
 			String fd = scan.nextLine();
 			
 			Document doc = Jsoup.connect("https://www.genie.co.kr/chart/top200").get();
 					Elements title = doc.select("td.info a.title");
 					for(int i=0; i < title.size(); i++) {
-						System.out.println(title.get(i).text());
+						if(title.get(i).text().contains(fd)) {
+							
+							System.out.println(title.get(i).text());
+						}
 					}
 			
 		} catch(Exception ex) {
-			
+			System.out.println(ex);
 		}
 
 }
