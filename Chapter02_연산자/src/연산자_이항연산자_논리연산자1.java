@@ -96,6 +96,7 @@ public class 연산자_이항연산자_논리연산자1 {
 		 * 
 		 * 
 		 */
+		System.out.println(534%30);
 	}
 
 }
