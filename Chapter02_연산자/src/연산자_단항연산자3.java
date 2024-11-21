@@ -80,10 +80,10 @@ public class 연산자_단항연산자3 {
 //		int b=3;
 //		System.out.println((double)a/b);
 		
-//		int a= 123456;
-//		double d = 123456.78f;
-//		int res = (int)((d-a)*100);
-//		System.out.println(res);
+		int a= 123456;
+		double d = 123456.78d;
+		int res = (int)((d-a)*100);
+		System.out.println(res);
 		
 //		long a = 123456;
 //		double d = 123456.78;

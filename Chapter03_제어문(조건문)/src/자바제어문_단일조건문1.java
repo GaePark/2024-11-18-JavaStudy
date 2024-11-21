@@ -40,6 +40,7 @@ public class 자바제어문_단일조건문1 {
 		{
 			System.out.printf("%d는(은) 3의 배수가 아닙니다.", num);
 		}
+
 	}
 
 }

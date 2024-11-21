@@ -48,6 +48,7 @@ public class 자바제어문_단일조건문3 {
 		if(!((ch>='A' && ch<='Z')||(ch>='a' && ch<='z')))
 			System.out.println(ch+"는(은) 알파벳이 아닙니다.");
 		
+		
 	}
 
 }
