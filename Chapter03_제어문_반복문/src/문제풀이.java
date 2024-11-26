@@ -1,4 +1,32 @@
 import java.util.Scanner;
+//C/C++ => include, C# => using, python import => from
+// => 라이브러리, 사용자 정의 클래스 (다른 폴더에 있는 경우)
+//                              --------패키지
+/*
+ * 자바의 기본 형식
+ * package 위치 지정 => 한번만 사용이 가능
+ * import ... => 여러번 사용이 가능
+ * => 모든 프로그램은 main을 한개 이상을 가지고 있어야 한다.
+ * public class ClassName => ClassName.java
+ * {
+ *     =======================
+ *        맴버변수 => 전역변수
+ *     =======================
+ *        생성자 () => 맴버변수 초기화
+ *     =======================
+ *        사용자 정의 메소드
+ *     =======================
+ *        main() =>
+ *     =======================
+ * 
+ * }
+ * class ClsName1
+ * {
+ * }
+ * 
+ * 
+ * 
+ */
 
 public class 문제풀이 {
 
@@ -9,8 +37,7 @@ public class 문제풀이 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("점수를 입력하세요");
 		int score = scan.nextInt();
-		int rank = score/10;
-		switch(rank) {
+		switch(score/10) {
 		case 10: case 9:
 			System.out.println("A입니다");
 			break;
@@ -48,7 +75,7 @@ public class 문제풀이 {
 			break;
 		case("/"):
 			if(num2 != 0) {
-				System.out.println(num1/num2);
+				System.out.println(num1/(double)num2);
 				break;
 			} else {
 				System.out.println("0으로 나눌 수 없습니다.");
@@ -69,7 +96,12 @@ public class 문제풀이 {
 		//4번
 		System.out.println("4번");
 		for(int i = 5; i<=50; i+=5)
-			System.out.print(i + " ");
+		{
+			if(i>45)
+				System.out.print(i);
+			else	
+				System.out.print(i + ",");
+		}
 		System.out.println();
 		
 		//5번
@@ -91,8 +123,9 @@ public class 문제풀이 {
 		//7
 		System.out.println("7번");
 		for(int i=2; i<=30; i+=2) {
-			System.out.print(i+ " ");
-			if(i%6==0) {
+
+			System.out.printf("%02d\t",i);
+			if(i%3==0) {
 				System.out.println();
 			}
 		}
