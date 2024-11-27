@@ -173,6 +173,16 @@ public class 문제풀이 {
 				System.out.println();
 			}
 			
+			//
+			for(int i=1; i<=5; i++){
+				for(int j=1; j<=5; j++){
+				if(j==i || j==5-i) {
+					System.out.println("★");
+				}else {
+					System.out.println("☆");
+				}
+			}
+			}
 	}
 
 }
