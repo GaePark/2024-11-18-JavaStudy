@@ -115,7 +115,13 @@ public class 문제풀이 {
 		for(int i = 0; i<arr2.length;i++)
 			if(arr2[i]==60) {
 				System.out.println(i);
+				break;
 			}
 	}
+	/*
+	 * 지역변수 > 블럭변수 => 메모리에서 사라진다
+	 * {} => 메모리 자체에서 관리
+	 *           ----------- Stack : 지역변수 / 매개변수
+	 */
 
 }
