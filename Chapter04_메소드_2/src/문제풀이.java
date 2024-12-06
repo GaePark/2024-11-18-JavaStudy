@@ -1,5 +1,9 @@
 import java.util.Calendar;
 import java.util.Scanner;
+//java.text => DecimalFormat => 1,000,000,000
+//                       SimpleDateFormat => 날짜변
+//                       ChoiceFormat => 값 선택
+//                       MessageFormat => 오라클 Insert
 
 public class 문제풀이 {
 	//1. 1-10까지 출력하는 메소드를 구현하시오
@@ -75,6 +79,12 @@ public class 문제풀이 {
 			return 'F';
 				
 	}
+	// 
+	// double[] limit = {50,60,70,80,90};
+//	String[] grade= {"f","d","c","b","a"}
+//	ChoiceFormat cf = new ChoiceFormat(limit,grade)
+	//System.out.println(cf.format(70));
+	
 	static boolean test9(int a) {
 		if((a%4==0 && a%100 !=0)||(a%400==0)) {
 			return true;
@@ -92,8 +102,7 @@ public class 문제풀이 {
 	static String test11(int a) {
 		if(a%2==0)
 			return "짝수";
-		else
-			return "홀수";
+		return "홀수";
 	}
 	//3의 배수를 판별하는 메소드를 구현하시오
 	static boolean test12(int a) {
