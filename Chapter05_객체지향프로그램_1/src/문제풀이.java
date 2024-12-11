@@ -4,7 +4,7 @@ class music {
 	int rank, like;
 }
 class recipe{
-	String poster, title, chef, chef_poster, detail;
+	String poster, title, chef, chef_poster;
 	int star,hit;
 }
 
@@ -22,8 +22,8 @@ class resde {
 }
 
 class register {
-	String id, name, email, address, phone,intro;
-	int password, password_again, birthday;
+	String id, name, email, address, phone,intro,password;
+	int  birthday;
 	char sex;
 }
 
