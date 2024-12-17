@@ -45,9 +45,9 @@ public class Seoul {
 		}
 		return datas;
 	}
-	public SeoulVO[] seoulDetailData(int no) {
-		
-	}
+//	public SeoulVO[] seoulDetailData(int no) {
+//		
+//	}
 //	public SeoulVO[] seoulListData(int page) {
 //		seoulVO[] seoul = new SeoulVO[];
 //		

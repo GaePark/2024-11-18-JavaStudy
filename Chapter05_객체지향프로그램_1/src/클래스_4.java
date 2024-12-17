@@ -1,3 +1,7 @@
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
 // 사용자 정의 클래스형
 /*
  *  <ul class="common_sp_list_ul ea4" style="padding:0 0 0 8px;">
@@ -20,9 +24,6 @@
                 </div>
             </li>
  */
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 class Recipe
 {

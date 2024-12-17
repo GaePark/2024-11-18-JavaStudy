@@ -74,10 +74,10 @@ package com.sist.main;
  */
 interface A
 {
-	int a;
+//	int a;
 	void aaa();
-	private int b=10;
-	protected int c=100;
+//	private int b=10;
+//	protected int c=100;
 	int d = 100;
 }
 

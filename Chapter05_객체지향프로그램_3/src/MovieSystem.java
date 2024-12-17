@@ -72,10 +72,9 @@ public class MovieSystem {
 		return movies[no-1];
 	}
 	// 검색
-	Movie[] movieSearch(String search) {
-		for(Movie s: movies) {
-			if(s.)
-		}
-	}
+//	Movie[] movieSearch(String search) {
+//		for(Movie s: movies) {
+//		}
+//	}
 	//
 }
