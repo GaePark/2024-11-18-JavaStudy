@@ -8,7 +8,7 @@ package com.sist.exception;
  *                                ㅣCheckException
  *                                    => 컴파일시 확인
  * =>예외처리 방법
- *     1. 직접처리 (예외복구)
+ *     1. 직접처리 (예외복구)g
  *     
  *     try
  *     {
