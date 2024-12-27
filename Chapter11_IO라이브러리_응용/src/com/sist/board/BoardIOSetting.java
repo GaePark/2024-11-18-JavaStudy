@@ -21,7 +21,7 @@ public class BoardIOSetting {
 			try {
 				oos.close();
 			} catch (Exception e2) {
-				// TODO: handle exception
+				// TODO: handle exception4
 			}
 		}
 		
