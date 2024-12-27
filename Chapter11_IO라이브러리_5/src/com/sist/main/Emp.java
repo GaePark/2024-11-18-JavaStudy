@@ -22,6 +22,7 @@ public class Emp {
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
+	
 	public String getJob() {
 		return job;
 	}
