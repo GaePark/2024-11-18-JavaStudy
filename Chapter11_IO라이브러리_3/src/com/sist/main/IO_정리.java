@@ -14,7 +14,7 @@ package com.sist.main;
  *     = Queue방식이다 => FIFO방식 (먼저 들어간것이 먼저 나오게)
  * 2) 종류
  *     = 바이트  송수신 = 바이트 스트림
- *         => 1byte읽기 / 1vyte쓰기
+ *         => 1byte읽기 / 1byte쓰기
  *         => 동영상 / 이미지 / zip ...
  *         => ~InputStream / ~OutputStream
  *         => 웹) 업로드 / 다운로드 / 웹 데이터 읽기
