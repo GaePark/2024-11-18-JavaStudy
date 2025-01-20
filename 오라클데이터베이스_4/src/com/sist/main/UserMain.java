@@ -11,7 +11,7 @@ import com.sist.dao.EmpDAO;
 public class UserMain extends JFrame implements ActionListener,MouseListener{
 	CardLayout card = new CardLayout();
 	JMenuItem empItem = new JMenuItem("사원관리");
-	JMenuItem foodItem = new JMenuItem("맛집관리");
+	JMenuItem foodItem = new JMenuItem("맛집관리"); 
 	JMenuItem eFineItem = new JMenuItem("사원검색");
 	JMenuItem fFindItem = new JMenuItem("맛집 검색");
 	JMenuItem exit = new JMenuItem("종료");

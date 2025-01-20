@@ -81,7 +81,7 @@ implements ActionListener,Runnable
 			try
 			{
 //				s=new Socket("localhost",6555);
-				s=new Socket("192.168.10.110",5555);
+				s=new Socket("localhost",5555);
 				//송수신
 				out=s.getOutputStream();
 				in = new BufferedReader(new InputStreamReader(s.getInputStream()));
